@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/JS/JS-Main-Projects/Task Manager(DOM)/images/fevicon2.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <nav>
+            <div id="title">
+                <img id="logo" src="/JS/JS-Main-Projects/Task Manager(DOM)/images/fevicon.png">
+                <div id="heading">
+                    <h2 id="main-heading">Task Manager</h2>
+                    <p>Organize, Prioritize, Achieve</p>
+                </div>
+            </div>
+            <div>
+                <button class = "addTask">+ Add New Task</button>
+            </div>
+        </nav>
+        <div class="search-main">
+            <div class="search">
+                <form class="input">
+                    <input type="text" placeholder="  Search Your Task">
+                    <button id="search-btn">Search</button>
+                </form>
+                <!-- <div id="filter">
+                    <label for="country"></label>
+                    <select id="All Categories">
+                        <option value="" disabled selected hidden>Choose Category</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                        <option>Other</option>
+                    </select>
+
+                    <button class="btn1">Clear Filters</button>
+                    <button class="btn2">Clear Tasks</button>
+                </div>    -->
+            </div>
+
+            
+            <div class="tasks">
+                <div id="pending">
+                    <div class="heading">
+                        <h3>🕒 Pending <span id="pend">0</span></h3>
+                    </div>
+                    
+                    <div class="empty-ext">
+                        <!-- <div class="task-card">
+                            <div class="content">
+                                <h3>Design Landing Page</h3>
+                                <p>Create a responsive landing page using HTML, CSS and JavaScript.</p>
+                        
+                                <span class="category">UI/UX</span>
+                            </div>
+                        
+                            <div class="actions">
+                                <button class="edit">
+                                    <img src="https://www.svgrepo.com/show/503019/edit.svg" alt="">
+                                </button>
+                        
+                                <button class="delete">
+                                    <img src="https://www.svgrepo.com/show/511788/delete-1487.svg" alt="">
+                                </button>
+
+                                <button class="complete">
+                                    <img src="https://www.svgrepo.com/show/501519/complete.svg" alt="">
+                                </button>
+                            </div>
+                        </div> -->
+                        <div class="empty-pending">
+                            <h1>📋</h1>
+                            <h3>No pending tasks</h3>
+                            <p>Tasks you add will appear here.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="completed">
+                    <div class="heading">
+                        <h3>✔ Completed <span id="comp">0</span></h3>
+                    </div>
+            
+                    <div class="empty-ext-1">
+                        <div class="empty-completed">
+                            <h1>🐹</h1>
+                            <h3>No completed tasks</h3>
+                            <p>Completed tasks will appear here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="overlay">
+
+            <div class="top">
+                <h1 id="close">x</h1>
+            </div>
+            <form id="overlay-form">
+                <h1>Create Tasks</h1>
+                <h4>Title</h4>
+                <input type="text" placeholder="Enter Title">
+                <h4>Description</h4>
+                <input type="text" placeholder="Enter Description">
+                <label for="country"></label>
+                    <select id="All Categories">
+                        <option>All Categories</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+                <div id="create-task">
+                    <button id="create-task-inner">Create</button>
+                </div>    
+                
+            </form>
+        </div>
+
+
+        <!-- <div id="not-found">
+            <div id="top-found">
+                <h1 id="close-found">x</h1>
+            </div>
+            <div id="not-found-head">
+                <h2>Not Found</h2>
+            </div>
+        </div> -->
+
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
