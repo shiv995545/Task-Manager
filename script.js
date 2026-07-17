@@ -101,15 +101,15 @@ function createCard() {
                         
                             <div class="actions">
                                 <button onclick="updateTask('${obj.id}')" class="edit">
-                                    <img src="/JS/JS-Main-Projects/Task Manager(DOM)/images/edit.svg" alt="">
+                                    <img src="/images/edit.svg" alt="">
                                 </button>
                         
                                 <button onclick="deleteTask('${obj.id}')" class="delete">
-                                    <img src="/JS/JS-Main-Projects/Task Manager(DOM)/images/delete-1487.svg" alt="">
+                                    <img src="/images/delete-1487.svg" alt="">
                                 </button>
 
                                 <button onclick="completeTask('${obj.id}')" class="complete">
-                                    <img src="/JS/JS-Main-Projects/Task Manager(DOM)/images/complete.svg" alt="">
+                                    <img src="/images/complete.svg" alt="">
                                 </button>
                             </div>
                         </div>`;
