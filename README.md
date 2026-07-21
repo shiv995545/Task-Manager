@@ -17,6 +17,7 @@ This project is a fully functional task manager that allows users to create, upd
 The primary goal of this project was to strengthen my understanding of JavaScript fundamentals by building a real-world application from scratch using only core web technologies.
 
 ---
+<a href="https://shiv995545.github.io/Task-Manager/">Check the Live Project</a>
 
 ## 🎥 Demo
 
